@@ -1,0 +1,39 @@
+baseURL = 'https://wshon.com/'
+languageCode = 'zh-cn'
+defaultcontentlanguage = "zh-cn"
+title = 'wshon'
+theme = "hugo-coder"
+
+[params]
+  author = "wshon"
+  info = ["Hello World!"]
+  description = "WShon's personal website"
+  keywords = "blog,developer,personal"
+  #avatarurl = "images/avatar.jpg"
+  gravatar = "code@wshon.com"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a> · <a href="http://beian.miit.gov.cn" target="_blank" rel="nofollow">辽ICP备19012680号-2</a>'
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/wshon/"
+
+# Menu links
+[[menu.main]]
+  name = "博客"
+  weight = 1
+  url  = "https://blog.wshon.com"
+[[menu.main]]
+  name = "导航"
+  weight = 2
+  url = "https://nav.wshon.com"
+
