@@ -1,7 +1,7 @@
 baseURL = 'https://wshon.com/'
 languageCode = 'zh-cn'
 defaultcontentlanguage = "zh-cn"
-title = 'wshon'
+title = '雾凇·WSHON'
 theme = "hugo-coder"
 
 [params]
